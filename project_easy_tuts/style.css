@@ -1,0 +1,360 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+/* navigation bar section  */
+#navbar
+{
+    position:sticky;
+    z-index:10;
+    background-image: linear-gradient(to right ,#9517ba ,#5f1782);     /* yaha ni chali yeh line ( doubt ) */ 
+}
+.navbar
+{
+    background-image: linear-gradient(to right ,#9517ba ,#5f1782);    
+      padding: 0px;
+
+}
+.navbar-brand img{
+
+    height:50px;
+    width:100px;
+    /* color:blue; */
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color:white ! important;
+    /* float: right; */
+    text-align: right;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 20px !important;
+}
+.navbar-toggler
+{
+    outline:none   !important;
+    /* border-color:transparent; */
+    /* padding:0; */
+    /* background: none; */
+}
+ 
+/* .navbar-toggler:focus
+{
+    outline : none;
+
+}  */
+  
+
+/* --------------------------banner section -------------------- */
+
+#banner
+{
+    background-image: linear-gradient(to right ,#9517ba ,#5f1782); 
+    /* background-color: violet; */
+    color:#fff;
+    padding:5%;
+
+ }
+ .promo-title
+ {
+     font-size: 50px;
+     font-weight: 600;
+     margin-top:100px  ;
+ }
+ .btn-play
+ {
+     /* color:#fff; */
+     width:45px;
+     /* filter: brightness(0); */
+     margin: 5px;
+     /* color:#fff; */
+     text-decoration:none;
+     /* text-emphasis-color: white; */
+ }
+ /* .filter-me
+ {
+    filter: brightness(0);
+
+ } */
+
+ #banner a
+ {
+     text-decoration:none;
+     color:#fff;
+
+
+ }
+ /* .filter-me
+ {
+     filter:opacity(10);
+ }
+  */
+  /* ---------------------------------------------------services section ---------------------- */
+
+#services
+{
+    padding: 80px 0;
+}
+.service-img1
+{
+    width:200px;
+    margin-top: 20px;
+
+}
+.service-img23
+{
+    width:180px;
+    margin-top:20px;
+
+}
+.service h4{
+
+    padding:5px;
+    margin-top:20px;
+    text-transform:uppercase;
+}
+
+.title::before
+{
+  content:"";
+  background:#7b1798;
+  height:5px;
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+  display:block;
+  transform: translateY(75px);
+
+
+
+
+}
+
+.title::after
+{
+  content:"";
+  background:#7b1798;
+  height:10px;
+  width:100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+  display:block;
+  transform: translateY(-0px);
+
+
+
+
+}
+
+#services .btn-danger
+{
+    background-image: linear-gradient(to right ,#9517ba ,#5f1782); 
+    border-radius: 20px;
+    border:none;
+    padding:8px 25px;
+
+}
+
+/* -------------------services section ----------------------- */
+
+#about-us
+{
+   background-color:#f8f9fa; 
+   padding: 50px 0;
+}
+.about-title
+{
+    font-size: 45px;
+    font-weight:600;   
+    margin-top:8%;
+}
+.about-us
+{
+    padding-left:20px;
+}
+.img-fluid
+{
+    width:400px;
+    margin-top:8%;
+    /* transform: translateY(50px);
+     */
+     position:relative;
+     top:-40px;
+}
+
+/* #about-us ul li span */
+/* { */
+    /* margin : 10px 0; */
+    /* position:relative; */
+    /* margin : 10px 0; */
+    /* text-indent:-5px; */
+    /* left:-10px; */
+/* } */
+#about-us ul li
+{
+    margin:10px 0;
+}
+#about-us ul
+{
+    margin-left: 20px;
+}
+@media(max-width:768px)
+{
+    #about-us
+    {
+        text-align:left;
+    }
+    .img-fluid
+    {
+        margin-left:auto;
+        margin-right:auto;
+        display: block;
+        width:50%;
+    }
+}
+
+
+
+/* -----------------------testimonial section ------------------------ */
+
+#testimonial
+{
+    /* padding:80px 0; */
+    /* background-color:yellow; */
+    /* text-align:center; */
+    margin:100px 0;
+
+}
+.testimonial
+{
+    /* margin :30px; */
+    /* margin:0 300px; */
+    /* text-align: center; */
+    border-left: 4px solid #7b1798;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+.testimonial img{
+
+    width:60px;
+    border-radius: 50%;
+}
+.doubt
+{
+    list-style-position: inside;
+}
+
+.user-detail
+{
+
+display:inline-block;
+font-size:12px;
+
+}
+.user-detail2
+{
+    border-right:4px solid #7b1798;
+}
+
+
+
+
+/* =====================social media section ======================
+ */
+
+ #social-media
+ {
+
+    background-image: linear-gradient(to right ,#9517ba ,#5f1782); 
+    padding:100px 0;
+
+ }
+
+ #social-media p{
+
+
+font-weight: 600px;
+font-size: 40px;;
+margin-bottom: 45px;
+color:white;
+
+ }
+ .social-icon img
+ {
+     width:50px;
+     margin:0 10px;
+     transition: 0.5s;
+ }
+ .social-icon a:hover img{
+
+    transform :translateY(-10px);
+
+ }
+ #footer
+ {
+    background-image: linear-gradient(to right ,#9517ba ,#5f1782); 
+     padding:50px 0;
+     color: #fff;
+
+ }
+ .footer-box
+ {
+    padding:20px;
+
+ }
+ .footer-box img
+ {
+    width:150px;
+    margin-bottom: 20px;
+
+
+ }
+ .footer-box .fas
+ {
+     margin-right:10px;
+     font-size:30px;        /* icon ke liye hai */
+
+     height:50px;          /* yeh background ke liye hai */
+     width:50px;
+     padding-top:7px;
+     border-radius:20px;
+     background-image: linear-gradient(to right ,#9517ba ,#5f1782); 
+     text-align: center;
+
+ }
+ .form-control
+ {
+     display:inline-block;
+     width:100px;
+
+ }
+
+ .btn-primary
+ {
+    background-image: linear-gradient(to right ,#9517ba ,#5f1782); 
+    /* background-image: ; */
+    border:none;
+     
+     outline:none !important;
+ }
+ hr{
+     background-color:#fff;
+ }
+
+ .copyright
+ {
+     text-align: center;
+     padding-top: 20px;
+ }
